@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+#unstructuredtext
+{
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}

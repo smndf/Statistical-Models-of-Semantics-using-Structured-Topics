@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>demoApp</display-name>
+	<servlet>
+		<servlet-name>Test</servlet-name>
+		<servlet-class>servlets.Test</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>InputServlet</servlet-name>
+		<servlet-class>servlets.InputServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InputServlet</servlet-name>
+		<url-pattern>/input</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TopicsList</servlet-name>
+		<servlet-class>servlets.TopicsList</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TopicsList</servlet-name>
+		<url-pattern>/topics</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DemoWordServlet</servlet-name>
+		<servlet-class>servlets.DemoWordServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DemoWordServlet</servlet-name>
+		<url-pattern>/example</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DisplayResult</servlet-name>
+		<servlet-class>servlets.DisplayResult</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DisplayResult</servlet-name>
+		<url-pattern>/results</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>SetupServlet</servlet-name>
+		<servlet-class>servlets.SetupServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SetupServlet</servlet-name>
+		<url-pattern>/setup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Visualisation</servlet-name>
+		<servlet-class>servlets.Visualisation</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Visualisation</servlet-name>
+		<url-pattern>/visualize</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>VisualisationPreloadedPositions</servlet-name>
+		<servlet-class>servlets.VisualisationPreloadedPositions</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>VisualisationPreloadedPositions</servlet-name>
+		<url-pattern>/visualizePreloaded</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AboutServlet</servlet-name>
+		<servlet-class>servlets.AboutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AboutServlet</servlet-name>
+		<url-pattern>/about</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ContactServlet</servlet-name>
+		<servlet-class>servlets.ContactServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ContactServlet</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+	<!--
+	<servlet>
+		<servlet-name>IntrudersServlet</servlet-name>
+		<servlet-class>servlets.IntrudersServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>IntrudersServlet</servlet-name>
+		<url-pattern>/intruders</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TextServlet</servlet-name>
+		<servlet-class>servlets.TextServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TextServlet</servlet-name>
+		<url-pattern>/topic</url-pattern>
+	</servlet-mapping>
+-->
+</web-app>
