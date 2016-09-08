@@ -53,16 +53,16 @@ import org.eclipse.jetty.webapp.WebAppContext;
 			Option portOption = Option.builder()
 					.longOpt("port")
 					.numberOfArgs(1)
-					.required(false)
+					.required(true)
 					.type(Integer.class)
-					.desc("server port, default 8080")
+					.desc("server port e.g. 8080")
 					.build();
 			Option graphDirOption = Option.builder()
 					.longOpt("dirGraph")
 					.numberOfArgs(1)
-					.required(false)
+					.required(true)
 					.type(String.class)
-					.desc("path to directory with graph representations of topics. Default: /home/simondif/data-webapp/topics")
+					.desc("path to directory with graph representations of topics e.g. /home/simondif/data-webapp/topics")
 					.build();
 			Options options = new Options();
 			options.addOption(portOption);
