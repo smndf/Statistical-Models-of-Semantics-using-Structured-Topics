@@ -46,6 +46,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 		// Resource path pointing to where the WEBROOT is
 	    private static final String WEBAPP_INDEX = "/webapp";
 	    public static String DIR_TOPIC_GRAPHS = null;
+	    public static int ES_PORT = 9300;
 	    
 	    public static void main(String[] args) throws Exception
 	    {
@@ -64,9 +65,17 @@ import org.eclipse.jetty.webapp.WebAppContext;
 					.type(String.class)
 					.desc("path to directory with graph representations of topics e.g. /home/simondif/data-webapp/topics")
 					.build();
+			Option esPortOption = Option.builder()
+					.longOpt("esPort")
+					.numberOfArgs(1)
+					.required(false)
+					.type(Integer.class)
+					.desc("port for elasticsearch default 9300")
+					.build();
 			Options options = new Options();
 			options.addOption(portOption);
 			options.addOption(graphDirOption);
+			options.addOption(esPortOption);
 
 			CommandLine cl = null;
 			boolean success = false;
@@ -82,6 +91,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 				System.exit(1);
 			}
 			int port = cl.hasOption("port") ? Integer.valueOf(cl.getOptionValue("port")) : 8080;
+			if (cl.hasOption("esPort")) ES_PORT = Integer.valueOf(cl.getOptionValue("esPort"));
 	        DIR_TOPIC_GRAPHS = cl.hasOption("dirGraph") ? cl.getOptionValue("dirGraph") : "/home/simondif/data-webapp/topics";
 	        Main main = new Main(port);
 	        main.start();

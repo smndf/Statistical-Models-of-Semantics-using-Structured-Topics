@@ -711,11 +711,14 @@ public class ElasticSearch {
 				.build();
 		TransportClient tc = new TransportClient(settings);
 		Client client;
+		int esPort = 9300;
 		if (Visualisation.frink) {
-			client = tc.addTransportAddress(new InetSocketTransportAddress("localhost",9350));			
-		} else {
-			client = tc.addTransportAddress(new InetSocketTransportAddress("localhost",9300));
-		}
+			esPort = 9350;	
+		} 
+
+		esPort = jetty.Main.ES_PORT;
+		client = tc.addTransportAddress(new InetSocketTransportAddress("localhost", esPort));
+		
 		SearchResponse response = client.prepareSearch(indexName)
 				.setTypes("topic")
 				.setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
@@ -743,11 +746,14 @@ public class ElasticSearch {
 				.build();
 		TransportClient tc = new TransportClient(settings);
 		Client client;
+		
+		int esPort = 9300;
 		if (Visualisation.frink) {
-			client = tc.addTransportAddress(new InetSocketTransportAddress("localhost",9350));			
-		} else {
-			client = tc.addTransportAddress(new InetSocketTransportAddress("localhost",9300));
-		}
+			esPort = 9350;	
+		} 
+		esPort = jetty.Main.ES_PORT;
+		client = tc.addTransportAddress(new InetSocketTransportAddress("localhost", esPort));
+		
 		String[] nounsQuery = NLPUtil.keepOnlyNounsAndNE(stringQuery);
 		QueryBuilder qb = termsQuery("content",    
 				nounsQuery); 
@@ -778,11 +784,12 @@ public class ElasticSearch {
 				.build();
 		TransportClient tc = new TransportClient(settings);
 		Client client;
+		int esPort = 9300;
 		if (Visualisation.frink) {
-			client = tc.addTransportAddress(new InetSocketTransportAddress("localhost",9350));			
-		} else {
-			client = tc.addTransportAddress(new InetSocketTransportAddress("localhost",9300));
-		}
+			esPort = 9350;	
+		} 
+		esPort = jetty.Main.ES_PORT;
+		client = tc.addTransportAddress(new InetSocketTransportAddress("localhost", esPort));
 
 		QueryBuilder qb = termQuery("id", noTopic); 
 
