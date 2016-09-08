@@ -46,6 +46,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 		// Resource path pointing to where the WEBROOT is
 	    private static final String WEBAPP_INDEX = "/webapp";
 	    public static String DIR_TOPIC_GRAPHS = null;
+	    public static String DIR_TOPIC_MODELS_LISTS = null;
 	    public static int ES_PORT = 9300;
 	    
 	    public static void main(String[] args) throws Exception
@@ -65,6 +66,13 @@ import org.eclipse.jetty.webapp.WebAppContext;
 					.type(String.class)
 					.desc("path to directory with graph representations of topics e.g. /home/simondif/data-webapp/topics")
 					.build();
+			Option modelsDirOption = Option.builder()
+					.longOpt("dirModels")
+					.numberOfArgs(1)
+					.required(true)
+					.type(String.class)
+					.desc("path to directory with models for topic lists (sorted by score, size..)")
+					.build();
 			Option esPortOption = Option.builder()
 					.longOpt("esPort")
 					.numberOfArgs(1)
@@ -76,6 +84,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 			options.addOption(portOption);
 			options.addOption(graphDirOption);
 			options.addOption(esPortOption);
+			options.addOption(modelsDirOption);
 
 			CommandLine cl = null;
 			boolean success = false;
@@ -93,6 +102,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 			int port = cl.hasOption("port") ? Integer.valueOf(cl.getOptionValue("port")) : 8080;
 			if (cl.hasOption("esPort")) ES_PORT = Integer.valueOf(cl.getOptionValue("esPort"));
 	        DIR_TOPIC_GRAPHS = cl.hasOption("dirGraph") ? cl.getOptionValue("dirGraph") : "/home/simondif/data-webapp/topics";
+	        DIR_TOPIC_MODELS_LISTS = cl.getOptionValue("dirModels");
 	        Main main = new Main(port);
 	        main.start();
 	        main.waitForInterrupt();

@@ -73,8 +73,10 @@
 				<div style="float:left;">
 					Select a model:&nbsp
            	<SELECT name="elasticSearchIndex" id="elasticSearchIndex">
-				<OPTION VALUE="swe-topics">Single word Expressions Topics (385?)</OPTION>
-				<OPTION VALUE="mwe-topics">Multi word Expressions Topics (5000?)</OPTION>
+				<OPTION VALUE="news200-2000-cw">news-n200-f2000-CW</OPTION>
+				<OPTION VALUE="wiki-200-2000-cw">wiki-n200-f2000-CW</OPTION>
+				<OPTION VALUE="news-50-2000-cw">news-n50-f2000-CW</OPTION>
+				<OPTION VALUE="wiki-30-0-lm">wiki-n30-f0-LM</OPTION>
 			</SELECT><br>
 				</div>
 			<br>

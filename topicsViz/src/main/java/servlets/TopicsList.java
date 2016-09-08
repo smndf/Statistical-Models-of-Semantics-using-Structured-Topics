@@ -37,27 +37,22 @@ public class TopicsList extends HttpServlet {
 			if (sortCriteria.equals("id")) suffix = "ById.txt";
 			else if (sortCriteria.equals("size")) suffix = "BySize.txt";
 			else suffix = "ByScore.txt";
-			String topicsFile;
-			if (esIndex.equals("7clusters")){
-				topicsFile = "NOT IMPLEMENTED YET";
-			} else if (esIndex.equals("swe-topics")){
-				if (Visualisation.frink) topicsFile = "/home/simondif/structured-topics/data/CWddt-news-n200-345k-closureFiltBef2FiltAftProcessed"+suffix;
-				else topicsFile =	"/Users/simondif/Documents/workspace/structured-topics/CWddt-news-n200-345k-closureFiltBef2FiltAftProcessed"+suffix;
-			} else if (esIndex.equals("mwe-topics")){
-				if (Visualisation.frink) topicsFile = "/home/simondif/structured-topics/data/CWddt-wiki-mwe-posFiltBef2FiltAftProcessed"+suffix;
-				else topicsFile =	"/Users/simondif/Documents/workspace/structured-topics/CWddt-wiki-mwe-posFiltBef2FiltAftProcessed"+suffix;
-			} else {
-				topicsFile = "problemWithElasticSearchIndexName";
+			String topicsFile = "";
+			if (esIndex.equals("news200-2000-cw")){
+				topicsFile = jetty.Main.DIR_TOPIC_MODELS_LISTS+"/CWddt-news-n200-345k-closure-f2000-e0_0FiltAftProcessed"+suffix;
+			} else if (esIndex.equals("wiki-200-2000-cw")){
+				topicsFile = jetty.Main.DIR_TOPIC_MODELS_LISTS+"/CWddt-wiki-n200-380k-v3-closure-f2000-e0_0FiltAftProcessed"+suffix;
+			} else if (esIndex.equals("news-50-2000-cw")){
+				topicsFile = jetty.Main.DIR_TOPIC_MODELS_LISTS+"/CWddt-news-n50-485k-closure-f2000-e0_0FiltAftProcessed"+suffix;
+			} else if (esIndex.equals("wiki-30-0-lm")){
+				topicsFile = jetty.Main.DIR_TOPIC_MODELS_LISTS+"/LMddt-wiki-n30-1400k-v3-closure-f0-e0_0FiltAftProcessed"+suffix;
 			}
+			
 			List<Topic> topicsList = getTopicsList(topicsFile);
 			String direction = request.getParameter("direction");
 			if (direction.equals("minus")) Collections.reverse(topicsList);
 			request.setAttribute("topics", topicsList );
 		}
-		// TODO change with esIndex value
-		//String topicsFile = "/home/simondif/structured-topics/data/CWddt-news-n200-345k-closureFiltBef2FiltAftProcessed.txt";
-		//List<Topic> topicsList = getTopicsList(topicsFile);
-		//request.setAttribute("topics", topicsList );
 		this.getServletContext().getRequestDispatcher( "/WEB-INF/topicsList.jsp" ).forward( request, response );
 		
 	}
