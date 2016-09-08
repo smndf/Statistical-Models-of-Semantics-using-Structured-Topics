@@ -116,6 +116,7 @@
 		<url-pattern>/intruders</url-pattern>
 	</servlet-mapping>
 
+-->
 	<servlet>
 		<servlet-name>TextServlet</servlet-name>
 		<servlet-class>servlets.TextServlet</servlet-class>
@@ -125,5 +126,4 @@
 		<servlet-name>TextServlet</servlet-name>
 		<url-pattern>/topic</url-pattern>
 	</servlet-mapping>
--->
 </web-app>
