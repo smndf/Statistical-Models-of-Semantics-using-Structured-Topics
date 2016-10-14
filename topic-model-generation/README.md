@@ -1,0 +1,1 @@
+This code can be used to generate topic models presented in the scope of this thesis, except the clustering using the Louvain Method, for which the code available at https://sourceforge.net/projects/louvain/ was used.
