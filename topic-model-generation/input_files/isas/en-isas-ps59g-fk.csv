@@ -1,0 +1,284 @@
+FK	Address	18
+FK	Attn	2
+FK	CAREER	2
+FK	Canals Manager	6
+FK	Contact	2
+FK	Contact Trossachs Cycles	4
+FK	Contact Wheels	4
+FK	Contacts	2
+FK	Current Address	2
+FK	Cycles	4
+FK	ISO country codes	2
+FK	Information	2
+FK	Latvia	2
+FK	Latvian football teams	2
+FK	Location	2
+FK	Manager	6
+FK	Modern generation immunosuppression	2
+FK	Port Manager Address	2
+FK	Telecommunications Planning issues	2
+FK	Venue	4
+FK	Visitor Information	2
+FK	Wheels	4
+FK	Write	2
+FK	Yugoslav clubs	2
+FK	address	2
+FK	band	2
+FK	bands	2
+FK	candidate	2
+FK	catalogue	6
+FK	classical immunosuppressors	2
+FK	club	10
+FK	clubs	4
+FK	clubs in Latvia	2
+FK	contact	62
+FK	country code	2
+FK	domestic clubs	2
+FK	drug	2
+FK	drugs	2
+FK	existing star catalogue	2
+FK	football team	2
+FK	fundamental catalogue	2
+FK	group Author address	2
+FK	hyphenation	2
+FK	immunosuppression	2
+FK	immunosuppressive drug	2
+FK	immunosuppressive drugs	2
+FK	immunosuppressors	2
+FK	inhibitor	2
+FK	issue	2
+FK	location	2
+FK	org Address	2
+FK	pan HDAC inhibitors	2
+FK	positional catalogue	2
+FK	postal loan returns	2
+FK	pp Address	2
+FK	return	2
+FK	system	4
+FK	systems	4
+FK	team	2
+FK	teams	2
+FK	therapeutic candidates	2
+FK	top league domestic clubs	2
+FK	used a rotating wing	2
+FK	wing	2
+FK Austria Wien	team	2
+FK Austria Wien	teams	2
+FK Batken	Byes	2
+FK Baumit Jablonec	Gambrinus liga teams	2
+FK Baumit Jablonec	team	2
+FK Be	club	2
+FK Be	clubs	2
+FK Bjelopoljac	2010-2011 season	2
+FK Bjelopoljac	season	2
+FK Bohemians Prague	club	2
+FK Bohemians Prague	clubs	2
+FK Borac ??a??ak	Serbian top league clubs	2
+FK Borac ??a??ak	club	2
+FK Borec	follow	2
+FK Borec	follows	2
+FK Bratstvo	Serbia	2
+FK Bratstvo	club in Serbia	2
+FK Budu	club	4
+FK Budu	clubs	2
+FK Budu	eliminating top league clubs	2
+FK Budu	following teams	2
+FK Budu	football club	2
+FK Budu	prominent football clubs	2
+FK Budu	team	2
+FK Chmel Bl??any	club	2
+FK Chmel Bl??any	clubs	2
+FK Chomutov	Czech football clubs	2
+FK Chomutov	football club	2
+FK De	League	2
+FK De	Montenegrin First League	2
+FK Donn	club	2
+FK Donn	clubs	2
+FK Drnovice	Gambrinus liga teams	2
+FK Drnovice	career	2
+FK Drnovice	team	4
+FK Drnovice	teams	2
+FK Dubo	team	2
+FK Dubo	teams	2
+FK Era	area clubs	2
+FK Era	club	2
+FK Ibar	sports club	2
+FK Inkaras Kaunas	native country	2
+FK Jablonec	club	4
+FK Jablonec	clubs	4
+FK Jablonec	native country	2
+FK Javor Ivanjica	club	2
+FK Javor Ivanjica	top league domestic clubs	2
+FK Jedinstvo Bijelo Polje	club	2
+FK Jedinstvo Bijelo Polje	top league domestic clubs	2
+FK Jedinstvo Para??in	club	2
+FK Jedinstvo Para??in	follow	2
+FK Jedinstvo Para??in	following clubs	2
+FK Jedinstvo Para??in	follows	2
+FK Jedinstvo Ub	Serbian clubs	2
+FK Jedinstvo Ub	club	2
+FK Jezava	club	2
+FK Jezava	clubs	2
+FK Klis	2010-2011 season	2
+FK Klis	season	2
+FK Ljuboten	Macedonia	2
+FK Ljuboten	club in Macedonia	2
+FK Ma	Serbian clubs	2
+FK Ma	club	2
+FK Makedonija Gjor	Macedonian clubs	2
+FK Makedonija Gjor	club	2
+FK Meteor Prague	Czech football clubs	2
+FK Meteor Prague	football club	2
+FK Mlad?? Boleslav	Europe	2
+FK Mlad?? Boleslav	club	2
+FK Mlad?? Boleslav	clubs	2
+FK Mlad?? Boleslav	clubs in Europe	2
+FK Mogren	club	2
+FK Mogren	following clubs	2
+FK Mogren	system	2
+FK Mogren	team	2
+FK Mogren	teams	2
+FK Mogren	youth football systems	2
+FK Mokra Gora	Kosovo	2
+FK Mokra Gora	North Kosovo	2
+FK Naryn	Byes	2
+FK Novi Pazar	Serbia	2
+FK Novi Pazar	second-league team in Serbia	2
+FK Obilic	Serbia's captial	2
+FK Obilic	captial	2
+FK Partizan	Serbia	2
+FK Partizan	Serbian top flight teams	2
+FK Partizan	club	2
+FK Partizan	clubs	2
+FK Partizan	clubs in Serbia	2
+FK Partizan	system	2
+FK Partizan	team	4
+FK Partizan	teams	2
+FK Partizan	youth football systems	2
+FK Partizan Kosovska Mitrovica	Kosovo	2
+FK Partizan Kosovska Mitrovica	North Kosovo	2
+FK Partizani	capital teams	2
+FK Partizani	team	2
+FK Pelister	follow	2
+FK Pelister	follows	2
+FK Pobeda	luminaries	2
+FK Pobeda	luminary	2
+FK Pobeda Prilep	team	2
+FK Polimlje	Serbian lower league clubs	2
+FK Polimlje	club	2
+FK Proleter Zrenjanin	Yugoslav clubs	2
+FK Proleter Zrenjanin	club	4
+FK Proleter Zrenjanin	clubs	2
+FK Qaraba	football team	2
+FK Qaraba	respective local football teams	2
+FK Rabotni	Europe	2
+FK Rabotni	multiple clubs in Europe	2
+FK Rad	Serbia	2
+FK Rad	Serbian clubs	2
+FK Rad	club	2
+FK Rad	clubs in Serbia	2
+FK Radni	club	2
+FK Radni	clubs	2
+FK Radnik Bijeljina	club	2
+FK Radnik Bijeljina	clubs	2
+FK Radni??ki Ni??	Serbia	2
+FK Radni??ki Ni??	Yugoslav First league teams	2
+FK Radni??ki Ni??	club	2
+FK Radni??ki Ni??	clubs in Serbia	2
+FK Radni??ki Ni??	team	2
+FK Radni??ki Ni??	top league domestic clubs	2
+FK Rapid football club	inov	2
+FK Rudar Pljevlja	club	2
+FK Rudar Pljevlja	following clubs	2
+FK Sarajevo	Sarajevo	2
+FK Sarajevo	club	2
+FK Sarajevo	clubs	2
+FK Sarajevo	year	2
+FK Sileks	Yugoslavia	2
+FK Sileks	former Yugoslavia	2
+FK Sirijus Klaip??da	native country	2
+FK Slatina Bor	club	2
+FK Slavija Sarajevo	club	2
+FK Slavija Sarajevo	clubs	2
+FK Sloboda	Serbian top league clubs	2
+FK Sloboda	club	2
+FK Sloboda	follow	2
+FK Sloboda	follows	2
+FK Sloga Kraljevo	Kraljevo football team	2
+FK Sloga Kraljevo	football team	2
+FK Sloga Po??ega	club	2
+FK Sloga Po??ega	lower league clubs	2
+FK Smederevo	Serbian clubs	2
+FK Smederevo	club	2
+FK Srem	Serbian clubs	2
+FK Srem	club	2
+FK Teplice	Czech clubs	2
+FK Teplice	Gambrinus liga clubs	2
+FK Teplice	club	8
+FK Teplice	team	2
+FK Teplice	teams	2
+FK Teplice	top flight Czech clubs	4
+FK Vardar	Yugoslav First league teams	2
+FK Vardar	team	2
+FK Viktoria ??i??kov	club	2
+FK Viktoria ??i??kov	clubs	2
+FK Vojvodina	Serbian top flight teams	2
+FK Vojvodina	Yugoslav clubs	2
+FK Vojvodina	club	2
+FK Vojvodina	team	2
+FK Vozdovac	Serbia's captial	2
+FK Vozdovac	captial	2
+FK Vuji	club	2
+FK Vuji	lower league clubs	2
+FK Zalgiris Vilnius	Wednesday	2
+FK Zalgiris Vilnius	on Wednesday	2
+FK Zanaet	Kavadarci	2
+FK Zeleznik	Serbia's captial	2
+FK Zeleznik	captial	2
+FK Zeljeznicar Sarajevo	Sarajevo	6
+FK Zeljeznicar Sarajevo	Warsaw	2
+FK Zeljeznicar Sarajevo	Wednesday	2
+FK Zeljeznicar Sarajevo	on Wednesday	2
+FK Zeljeznicar Sarajevo	rule In Sarajevo	2
+FK Zeta	club	2
+FK Zeta	team	2
+FK Zeta	teams	2
+FK Zeta	top league domestic clubs	2
+FK Zvezdara	Serbian top league clubs	2
+FK Zvezdara	Yugoslavia	2
+FK Zvezdara	club	2
+FK Zvezdara	former Yugoslavia	2
+FK ??eleznik	Serbian top league clubs	2
+FK ??eleznik	club	2
+FK-EP	endeavour	2
+FK-EP	own creative endeavours	2
+FKB	IATA	2
+FKB Group	LEAD	2
+FKBP	co-factors	2
+FKBP	factor	2
+FKBP	isomerase	2
+FKBP	prolyl isomerases	2
+FKI	M Apap Support	2
+FKI	Support	4
+FKI	companies	2
+FKI	company	2
+FKI	government bodies	2
+FKI	government body	2
+FKI Chairman Kim	chaebols	2
+FKI Drives	K Ohyama Support	2
+FKI Drives	R Brown Support	2
+FKI Drives	Support	4
+FKI Drives Ltd	G Turl Support	2
+FKI Drives Ltd	Support	2
+FKI Drives Period	B Palethorpe Support	2
+FKI Drives Period	N Teske Support	2
+FKI Drives Period	Support	4
+FKKM	authorities	2
+FKKM	authority	2
+FKM	Extruded fluoropolymer tubes	2
+FKM	elastomer	2
+FKM	elastomers	2
+FKM	tube	2
+FKTU	South Korea's trade unions	2
+FKTU	trade union	2
+FKU	lifetime	2
